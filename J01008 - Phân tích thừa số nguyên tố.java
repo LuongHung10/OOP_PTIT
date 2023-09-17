@@ -7,7 +7,7 @@ public class Test {
         for(int x = 1; x <= t; x++)
         {
             int n = sc.nextInt();
-            System.out.print("Test " + t + ": ");
+            System.out.print("Test " + x + ": ");
             for(int i = 2; i <= Math.sqrt(n); i++)
             {
                 if(n % i == 0)
